@@ -4,10 +4,10 @@ const mysql = require('mysql')
 
 //配置mysql参数
 const connection = mysql.createConnection({  
-    host: '47.104.176.177',
-    user: 'root',
-    password: 'Guodi3519~',
-    database: 'node_test'
+    host: '数据库IP',
+    user: '用户名',
+    password: '数据库密码',
+    database: '数据库名'
 })
 
 //连接mysql
@@ -79,7 +79,7 @@ function getData(baseUrl,page) {
         })       
 
     })
-    
+
     if(page < 3) { 
         getData(baseUrl, ++page); //递归执行，页数+1
       } else {
