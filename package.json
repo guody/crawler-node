@@ -1,0 +1,19 @@
+{
+  "name": "crawler-node",
+  "version": "1.0.0",
+  "description": "基于node网络爬虫",
+  "main": "app.js",
+  "scripts": {
+    "start": "supervisor app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "guody",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "iconv-lite": "^0.4.24",
+    "mysql": "^2.16.0",
+    "request": "^2.88.0",
+    "superagent": "^3.8.3"
+  }
+}
